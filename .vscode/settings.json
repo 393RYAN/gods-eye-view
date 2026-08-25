@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false,
+  "files.associations": {
+    "*.mjs": "javascript"
+  },
+  "files.exclude": {
+    "node_modules": true,
+    "dist": true,
+    ".git": false
+  },
+  "search.exclude": {
+    "node_modules": true,
+    "dist": true,
+    "package-lock.json": true
+  },
+  "javascript.preferences.importModuleSpecifier": "relative",
+  "javascript.suggest.autoImports": true,
+  "eslint.enable": false,
+  "css.validate": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
+}
